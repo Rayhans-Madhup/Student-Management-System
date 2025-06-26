@@ -1,0 +1,65 @@
+
+===============================
+   STUDENT MANAGEMENT SYSTEM
+===============================
+
+📌 ACTOR: STUDENT
+
+--------------------------------
+MODULES & FUNCTIONS
+--------------------------------
+
+1. REGISTER STUDENT
+   - Assigns unique ID
+   - Captures name & email
+
+2. OFFER COURSE
+   - Admin creates course
+   - Each course has code & name
+
+3. TRAIN STUDENT
+   - Links student to course
+   - Marks training status
+
+4. CONDUCT EXAM
+   - Accepts score input
+   - Tied to specific course
+
+5. VIEW RESULT
+   - Displays all scores
+   - Exports to PDF & HTML
+
+
+--------------------------------
+📁 OUTPUT FORMATS
+--------------------------------
+
+📄 PDF REPORT:
+  - Contains:
+     → ID, Name, Email
+     → Course-wise marks
+  - Styled with:
+     → Green title header
+     → Bullet points
+     → Clean layout
+
+📄 HTML REPORT:
+  - Styled table output
+  - Opens in browser
+  - Filename: StudentResult_<ID>.html
+
+📝 CSV Report (optional):
+  - Viewable in Excel
+
+--------------------------------
+✨ ADVANCED FEATURES (Optional)
+--------------------------------
+✔ Result Grading (A, B, C)
+✔ Email Notification (Mock)
+✔ File-based Storage
+✔ Search Course by Name
+✔ GUI with JavaFX (if needed)
+
+--------------------------------
+🧑 CREATED BY:
+Rayhans Madhup

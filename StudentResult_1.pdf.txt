@@ -1,0 +1,13 @@
+
+This is a placeholder for the PDF output.
+
+In your actual Java program using Apache PDFBox, a file like this will be generated:
+  StudentResult_1.pdf
+
+It will contain:
+- A green header
+- Student ID, Name, Email
+- Course-wise scores
+- Styled layout with bullet points
+
+Refer to the PDFExporter.java class provided in your code.
